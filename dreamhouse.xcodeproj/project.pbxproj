@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AC974E22626939A00639F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC974E12626939A00639F47 /* AppDelegate.swift */; };
+		2AC974E42626939A00639F47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC974E32626939A00639F47 /* SceneDelegate.swift */; };
+		2AC974E62626939A00639F47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC974E52626939A00639F47 /* ViewController.swift */; };
+		2AC974E92626939A00639F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC974E72626939A00639F47 /* Main.storyboard */; };
+		2AC974EC2626939A00639F47 /* dreamhouse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AC974EA2626939A00639F47 /* dreamhouse.xcdatamodeld */; };
+		2AC974EE2626939A00639F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC974ED2626939A00639F47 /* Assets.xcassets */; };
+		2AC974F12626939A00639F47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC974EF2626939A00639F47 /* LaunchScreen.storyboard */; };
+		2AC974FC2626939A00639F47 /* dreamhouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC974FB2626939A00639F47 /* dreamhouseTests.swift */; };
+		2AC975072626939A00639F47 /* dreamhouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC975062626939A00639F47 /* dreamhouseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AC974F82626939A00639F47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AC974D62626939900639F47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC974DD2626939A00639F47;
+			remoteInfo = dreamhouse;
+		};
+		2AC975032626939A00639F47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AC974D62626939900639F47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC974DD2626939A00639F47;
+			remoteInfo = dreamhouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AC974DE2626939A00639F47 /* dreamhouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dreamhouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC974E12626939A00639F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AC974E32626939A00639F47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2AC974E52626939A00639F47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AC974E82626939A00639F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AC974EB2626939A00639F47 /* dreamhouse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dreamhouse.xcdatamodel; sourceTree = "<group>"; };
+		2AC974ED2626939A00639F47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AC974F02626939A00639F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AC974F22626939A00639F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC974F72626939A00639F47 /* dreamhouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dreamhouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC974FB2626939A00639F47 /* dreamhouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dreamhouseTests.swift; sourceTree = "<group>"; };
+		2AC974FD2626939A00639F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC975022626939A00639F47 /* dreamhouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dreamhouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC975062626939A00639F47 /* dreamhouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dreamhouseUITests.swift; sourceTree = "<group>"; };
+		2AC975082626939A00639F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AC974DB2626939A00639F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC974F42626939A00639F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC974FF2626939A00639F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AC974D52626939900639F47 = {
+			isa = PBXGroup;
+			children = (
+				2AC974E02626939A00639F47 /* dreamhouse */,
+				2AC974FA2626939A00639F47 /* dreamhouseTests */,
+				2AC975052626939A00639F47 /* dreamhouseUITests */,
+				2AC974DF2626939A00639F47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AC974DF2626939A00639F47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AC974DE2626939A00639F47 /* dreamhouse.app */,
+				2AC974F72626939A00639F47 /* dreamhouseTests.xctest */,
+				2AC975022626939A00639F47 /* dreamhouseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AC974E02626939A00639F47 /* dreamhouse */ = {
+			isa = PBXGroup;
+			children = (
+				2AC974E12626939A00639F47 /* AppDelegate.swift */,
+				2AC974E32626939A00639F47 /* SceneDelegate.swift */,
+				2AC974E52626939A00639F47 /* ViewController.swift */,
+				2AC974E72626939A00639F47 /* Main.storyboard */,
+				2AC974ED2626939A00639F47 /* Assets.xcassets */,
+				2AC974EF2626939A00639F47 /* LaunchScreen.storyboard */,
+				2AC974F22626939A00639F47 /* Info.plist */,
+				2AC974EA2626939A00639F47 /* dreamhouse.xcdatamodeld */,
+			);
+			path = dreamhouse;
+			sourceTree = "<group>";
+		};
+		2AC974FA2626939A00639F47 /* dreamhouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AC974FB2626939A00639F47 /* dreamhouseTests.swift */,
+				2AC974FD2626939A00639F47 /* Info.plist */,
+			);
+			path = dreamhouseTests;
+			sourceTree = "<group>";
+		};
+		2AC975052626939A00639F47 /* dreamhouseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AC975062626939A00639F47 /* dreamhouseUITests.swift */,
+				2AC975082626939A00639F47 /* Info.plist */,
+			);
+			path = dreamhouseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AC974DD2626939A00639F47 /* dreamhouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC9750B2626939A00639F47 /* Build configuration list for PBXNativeTarget "dreamhouse" */;
+			buildPhases = (
+				2AC974DA2626939A00639F47 /* Sources */,
+				2AC974DB2626939A00639F47 /* Frameworks */,
+				2AC974DC2626939A00639F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dreamhouse;
+			productName = dreamhouse;
+			productReference = 2AC974DE2626939A00639F47 /* dreamhouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AC974F62626939A00639F47 /* dreamhouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC9750E2626939A00639F47 /* Build configuration list for PBXNativeTarget "dreamhouseTests" */;
+			buildPhases = (
+				2AC974F32626939A00639F47 /* Sources */,
+				2AC974F42626939A00639F47 /* Frameworks */,
+				2AC974F52626939A00639F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AC974F92626939A00639F47 /* PBXTargetDependency */,
+			);
+			name = dreamhouseTests;
+			productName = dreamhouseTests;
+			productReference = 2AC974F72626939A00639F47 /* dreamhouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AC975012626939A00639F47 /* dreamhouseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC975112626939A00639F47 /* Build configuration list for PBXNativeTarget "dreamhouseUITests" */;
+			buildPhases = (
+				2AC974FE2626939A00639F47 /* Sources */,
+				2AC974FF2626939A00639F47 /* Frameworks */,
+				2AC975002626939A00639F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AC975042626939A00639F47 /* PBXTargetDependency */,
+			);
+			name = dreamhouseUITests;
+			productName = dreamhouseUITests;
+			productReference = 2AC975022626939A00639F47 /* dreamhouseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AC974D62626939900639F47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2AC974DD2626939A00639F47 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2AC974F62626939A00639F47 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2AC974DD2626939A00639F47;
+					};
+					2AC975012626939A00639F47 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2AC974DD2626939A00639F47;
+					};
+				};
+			};
+			buildConfigurationList = 2AC974D92626939900639F47 /* Build configuration list for PBXProject "dreamhouse" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AC974D52626939900639F47;
+			productRefGroup = 2AC974DF2626939A00639F47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AC974DD2626939A00639F47 /* dreamhouse */,
+				2AC974F62626939A00639F47 /* dreamhouseTests */,
+				2AC975012626939A00639F47 /* dreamhouseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AC974DC2626939A00639F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC974F12626939A00639F47 /* LaunchScreen.storyboard in Resources */,
+				2AC974EE2626939A00639F47 /* Assets.xcassets in Resources */,
+				2AC974E92626939A00639F47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC974F52626939A00639F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC975002626939A00639F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AC974DA2626939A00639F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC974EC2626939A00639F47 /* dreamhouse.xcdatamodeld in Sources */,
+				2AC974E62626939A00639F47 /* ViewController.swift in Sources */,
+				2AC974E22626939A00639F47 /* AppDelegate.swift in Sources */,
+				2AC974E42626939A00639F47 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC974F32626939A00639F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC974FC2626939A00639F47 /* dreamhouseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC974FE2626939A00639F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC975072626939A00639F47 /* dreamhouseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AC974F92626939A00639F47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AC974DD2626939A00639F47 /* dreamhouse */;
+			targetProxy = 2AC974F82626939A00639F47 /* PBXContainerItemProxy */;
+		};
+		2AC975042626939A00639F47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AC974DD2626939A00639F47 /* dreamhouse */;
+			targetProxy = 2AC975032626939A00639F47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AC974E72626939A00639F47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC974E82626939A00639F47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AC974EF2626939A00639F47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC974F02626939A00639F47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AC975092626939A00639F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AC9750A2626939A00639F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AC9750C2626939A00639F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = dreamhouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sarab.dreamhouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AC9750D2626939A00639F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = dreamhouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sarab.dreamhouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AC9750F2626939A00639F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = dreamhouseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sarab.dreamhouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dreamhouse.app/dreamhouse";
+			};
+			name = Debug;
+		};
+		2AC975102626939A00639F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = dreamhouseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sarab.dreamhouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dreamhouse.app/dreamhouse";
+			};
+			name = Release;
+		};
+		2AC975122626939A00639F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = dreamhouseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sarab.dreamhouseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dreamhouse;
+			};
+			name = Debug;
+		};
+		2AC975132626939A00639F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = dreamhouseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sarab.dreamhouseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dreamhouse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AC974D92626939900639F47 /* Build configuration list for PBXProject "dreamhouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC975092626939A00639F47 /* Debug */,
+				2AC9750A2626939A00639F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC9750B2626939A00639F47 /* Build configuration list for PBXNativeTarget "dreamhouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC9750C2626939A00639F47 /* Debug */,
+				2AC9750D2626939A00639F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC9750E2626939A00639F47 /* Build configuration list for PBXNativeTarget "dreamhouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC9750F2626939A00639F47 /* Debug */,
+				2AC975102626939A00639F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC975112626939A00639F47 /* Build configuration list for PBXNativeTarget "dreamhouseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC975122626939A00639F47 /* Debug */,
+				2AC975132626939A00639F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2AC974EA2626939A00639F47 /* dreamhouse.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2AC974EB2626939A00639F47 /* dreamhouse.xcdatamodel */,
+			);
+			currentVersion = 2AC974EB2626939A00639F47 /* dreamhouse.xcdatamodel */;
+			path = dreamhouse.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2AC974D62626939900639F47 /* Project object */;
+}
